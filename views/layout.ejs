@@ -1,0 +1,18 @@
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+    <link href="/css/layout.css" type="text/css" rel="stylsheet">
+    <!-- Here will be placed css of every ejs -->
+    <%- style %> 
+</head>
+<body>
+    <%- include('_header.ejs'); %> 
+    <%- body %> 
+    <%- include('_footer.ejs'); %> 
+    <!-- Here will be placed css of every ejs. now u can link script in -->
+    <%- script %> 
+</body>
+</html>
